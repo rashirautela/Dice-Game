@@ -31,8 +31,7 @@ void printPlayerPoints( int p1, int p2 ) //function to print the initial player 
 {
         printf("P1\t: %d\nP2\t: %d\n", p1, p2);
 }
-void printRoundInfo( ROUNDTYPE t, int dice, int points ) //function to print the round information
-{
+void printRoundInfo( ROUNDTYPE t, int dice, int points ) {//function to print the round information
         if(t == BONUS)
                 printf("\nType\t: BONUS\n");
         else if(t == DOUBLE)
